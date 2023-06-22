@@ -57,8 +57,7 @@ GrowthSW$treat <- if_else(GrowthSW$revolutions > 0, "revolution", "no revolution
 datasummary(treat * (growth + rgdp60) ~ mean + median + sd + min + max, data=GrowthSW)
 ```
 
-**Designated place**: type one or two sentences describing this table of a fellow student below. For example, comment on the mean and median growth of both groups. Then stage, commit and push it to their github repository. 
-
+**Designated place**: Both the mean and median growth was higher for countries with 0 revolutions, than the countries with more than 0.
 
 ### Part 3: Make a table summarizing reressions using modelsummary and kable
 
